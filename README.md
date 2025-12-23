@@ -14,10 +14,10 @@ I am happy to share some git commands that I used to create my GitHub portfolio.
 ##### Creating, cloning, pushing and pulling repositories  
 ```git
 git init osukhorukova                                       # Создать локальный репозиторий с именем, совпадающим с вашим GitHub-именем
-git clone git@github.com:osukhorukova/osukhorukova.git      # Склонировать свой репозиторий на компьютер в отдельную папку
+git clone git@github.com:annamariareim-hub/annamariareim-hub.git      # Склонировать свой репозиторий на компьютер в отдельную папку
 git clone git@github.com:testrusau/testrusau.git            # Склонировать репозиторий github.com/testrusau/testrusau на компьютер в отдельную папку
 cd testrusau                                                # Перейти в папку testrusau
-git push git@github.com:osukhorukova/testrusau.git main:main  # Отправить данные из репозитория testrusau в свой собственный репозиторий
+git push git@github.com:annamariareim-hub/testrusau.git main:main  # Отправить данные из репозитория testrusau в свой собственный репозиторий
 git commit -m "описание внесённых изменений"                # Открыть файл README.md и внести изменения, закоммитив каждую часть отдельно
 git push                                                    # Отправить коммиты в удалённый репозиторий
 ```
@@ -26,7 +26,7 @@ git push                                                    # Отправить
 ##### Creating, adding remote repositories  
 ```git
 git init sql                                                # Создать отдельный локальный репозиторий для элемента портфолио (например, по SQL)
-git remote add sql https://github.com/osukhorukova/sql.git  # Указать удалённый (remote) репозиторий на GitHub
+git remote add sql https://github.com/annamariareim-hub/sql.git  # Указать удалённый (remote) репозиторий на GitHub
 # README.md отредактирован вручную                         # Вручную добавить ссылки на свои репозитории в файл README.md
 git add README.md                                           # Добавить изменённый файл в индекс (stage)
 git commit -m "описание внесённых изменений"                # Зафиксировать изменения
